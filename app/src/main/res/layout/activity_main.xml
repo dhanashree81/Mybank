@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/mybank"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="bold"
+         />
+    <TextView
+        android:id="@+id/hmpgmsg"
+        android:layout_width="350dp"
+        android:layout_height="94dp"
+        android:gravity="center"
+        android:text="@string/welcome_to_mybank_you_can_use_this_app_to_tranfer_money_between_accounts"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hmpglogo"
+        />
+
+
+
+</LinearLayout>

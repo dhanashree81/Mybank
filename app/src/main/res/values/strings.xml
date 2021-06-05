@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mybank</string>
+    <string name="mybank">Mybank</string>
+    <string name="welcome_to_mybank_you_can_use_this_app_to_tranfer_money_between_accounts">Welcome to MyBank!You can use this app to tranfer money between accounts.</string>
+    <string name="customer_name">Customer Name:</string>
+    <string name="name">Name:</string>
+</resources>
